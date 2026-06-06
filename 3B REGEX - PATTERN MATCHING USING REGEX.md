@@ -23,7 +23,18 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+import re
+str=input()
+pattern='^[a(b*)]+$'
+x=re.search(pattern,str)
+if x:
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+<img width="884" height="276" alt="image" src="https://github.com/user-attachments/assets/5e7ccf25-420a-4c52-aa52-3f3935ed1292" />
+
 
 ### RESULT
+Thus the program is executed and verified.
