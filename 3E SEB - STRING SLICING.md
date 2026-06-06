@@ -9,14 +9,13 @@ To write a Python program that splits a string into parts using the @ symbol as 
 ---
 
 ### ALGORITHM
----
+~~~
 1.Start the program.
 2.Define a function splitstring(a) that accepts a string as input.
 3.Use the split('@') method to divide the string wherever the @ symbol occurs.
 4.Store the separated parts in a variable x.
 5.Display the list x and stop the program.
-
----
+~~~
 
 ### PROGRAM
 
