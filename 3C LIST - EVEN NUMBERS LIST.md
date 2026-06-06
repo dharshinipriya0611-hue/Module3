@@ -9,7 +9,7 @@ To write a Python function that creates a list of even numbers from 12 to n and 
 ---
 
 ### ALGORITHM
-
+~~~
 1.Start the program. 
 2.Define a function named createlist that accepts a single parameter n. 
 3.Initialize an empty list l. 
@@ -17,8 +17,7 @@ To write a Python function that creates a list of even numbers from 12 to n and 
 5.If the condition is true, append i to the list l. After the loop ends, print the list using print("List =", l). 
 6.Calculate the sum of the list using sum(l) and print the result. End the function. 
 7.Terminate the program.
-
----
+~~~
 
 ### PROGRAM
 
