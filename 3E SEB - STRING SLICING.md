@@ -4,27 +4,32 @@
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
+To write a Python program that splits a string into parts using the @ symbol as a separator and displays the resulting list.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+1.Start the program.
+2.Define a function splitstring(a) that accepts a string as input.
+3.Use the split('@') method to divide the string wherever the @ symbol occurs.
+4.Store the separated parts in a variable x.
+5.Display the list x and stop the program.
 
 ---
 
 ### PROGRAM
 
 ```
+def splitstring(a):
+    x = a.split('@')
+    print(x)
+
 ```
 
 ### OUTPUT
+<img width="928" height="242" alt="image" src="https://github.com/user-attachments/assets/7a9ec66a-b3d2-4e48-ad96-66ede2b4a3a9" />
+
 
 ### RESULT
+Thus the program is created and verified.
