@@ -9,14 +9,13 @@ To write a Python program that finds all numbers divisible by 9 from 1 to n-1, s
 ---
 
 ### ALGORITHM
-
+~~~
 1.Start the program and read the value of n from the user.
 2.Create an empty list a.
 3.Iterate through numbers from 1 to n-1.
 4.For each number, check whether it is divisible by 9; if yes, add it to the list a.
 5.Convert the list into a tuple b, display the tuple, print its length, and stop the program.
-
----
+~~~
 
 ### PROGRAM
 
