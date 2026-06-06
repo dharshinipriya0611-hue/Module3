@@ -4,18 +4,17 @@
 ---
 
 ### AIM  
-To write a Python program to create a tuple containing all multiples of 5 up to a given number **N**.
+To write a Python program that finds all numbers divisible by 9 from 1 to n-1, stores them in a tuple, displays the tuple, and prints its length.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept an integer `N` from the user.  
-3. Use a generator expression inside the `tuple()` function to create a tuple `multiples_of_5` with values starting from `5` up to `N - 1`, stepping by `5`.  
-4. Return the tuple `multiples_of_5`.  
-5. Print the resulting tuple.  
-6. Terminate the program.
+1.Start the program and read the value of n from the user.
+2.Create an empty list a.
+3.Iterate through numbers from 1 to n-1.
+4.For each number, check whether it is divisible by 9; if yes, add it to the list a.
+5.Convert the list into a tuple b, display the tuple, print its length, and stop the program.
 
 ---
 
